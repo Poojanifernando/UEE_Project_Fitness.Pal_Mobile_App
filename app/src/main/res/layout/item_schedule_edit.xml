@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:layout_margin="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/background_cardview"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+
+            <TextView
+                android:id="@+id/tx_view_sch_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/sample_day_number"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_weight="0.8"
+                />
+
+            <EditText
+                android:id="@+id/ed_txt_view_sch_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:padding="5dp"
+                android:text="@string/sample_day_title"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:enabled="false"
+                android:background="@color/white"
+                android:layout_weight="0.2"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+
+            <EditText
+                android:id="@+id/ed_txt_sch_push"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/sample_push_number"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:background="@color/ash"
+                android:layout_weight="0.8"
+                android:inputType="number"
+                />
+
+            <TextView
+                android:id="@+id/ed_txt_view_sch_push"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:padding="5dp"
+                android:text="@string/sample_push_title"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:enabled="false"
+                android:background="@color/white"
+                android:layout_weight="0.2"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+
+            <EditText
+                android:id="@+id/ed_txt_sch_squats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/sample_squat_number"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:background="@color/ash"
+                android:layout_weight="0.8"
+                android:inputType="number"
+                />
+
+            <TextView
+                android:id="@+id/txt_view_sch_squats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:padding="5dp"
+                android:text="@string/sample_squat_title"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:enabled="false"
+                android:background="@color/white"
+                android:layout_weight="0.2"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+
+            <EditText
+                android:id="@+id/ed_txt_sch_bridge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/sample_bridge_number"
+                android:textColor="@color/black"
+                android:layout_weight="0.8"
+                android:background="@color/ash"
+                android:inputType="number"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_view_sch_bridge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:padding="5dp"
+                android:text="@string/sample_bridge_title"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:enabled="false"
+                android:layout_weight="0.2"
+                android:background="@color/white"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+
+            <EditText
+                android:id="@+id/ed_txt_view_sch_press"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/sample_press_number"
+                android:textColor="@color/black"
+                android:layout_weight="0.8"
+                android:background="@color/ash"
+                android:inputType="number"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_view_sch_press"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:padding="5dp"
+                android:text="@string/sample_press_title"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:enabled="false"
+                android:background="@color/white"
+                android:layout_weight="0.2"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical|center"
+            android:weightSum="1"
+            android:layout_margin="20dp"
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/app_btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@color/light_red"
+                android:layout_margin="20dp"
+                android:textColor="@color/white"
+                android:text="@string/edit_sch_btn_cancel"
+                android:layout_weight="0.5"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/app_btn_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@color/light_green"
+                android:layout_margin="20dp"
+                android:textColor="@color/white"
+                android:text="@string/edit_sch_btn_update"
+                android:layout_weight="0.5"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

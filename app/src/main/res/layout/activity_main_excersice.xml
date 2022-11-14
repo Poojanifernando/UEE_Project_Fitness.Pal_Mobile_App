@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    tools:context=".MainActivityExcersice">
+
+
+    <TextView
+        android:id="@+id/tx_view_main_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_sch"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/tx_view_main_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tx_view_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/weight_label"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="start"
+                android:layout_margin="20dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_weight="0.6"
+                />
+
+            <EditText
+                android:id="@+id/ed_txt_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:hint="@string/weight_sample"
+                android:padding="5dp"
+                android:layout_weight="0.4"
+                android:inputType="number"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tx_view_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/height_label"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="start"
+                android:layout_margin="20dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_weight="0.6"
+                />
+
+            <EditText
+                android:id="@+id/ed_txt_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:hint="@string/height_sample"
+                android:padding="5dp"
+                android:layout_weight="0.4"
+                android:inputType="number"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tx_view_bodyType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/body_type_label"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="start"
+                android:layout_margin="20dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_weight="0.6"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/white"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner_bodyType"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:dropDownSelector="@color/white"
+                    android:entries="@array/bodyType"
+                    android:spinnerMode="dropdown" />
+
+                <ImageView
+                    android:id="@+id/drop_cat"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="2dp"
+                    android:src="@drawable/ic_baseline_arrow_drop_down_24" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/app_btn_view_sch"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/app_btn_get_sch"
+        android:text="@string/view_sch"
+        android:backgroundTint="@color/light_red"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/app_btn_get_sch"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/get_schedule"
+        android:backgroundTint="@color/light_red"
+        android:textColor="@color/white"
+        android:layout_marginBottom="100dp"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#071330"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/fitnesstext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="90"
+        android:inputType="textPersonName"
+        android:text="Welcome to "
+        android:textSize="150px"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/fitnesstext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="90"
+        android:inputType="textPersonName"
+        android:text="Fitness.Pal "
+        android:textSize="150px"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        app:srcCompat="@drawable/welcome" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonWelcome"
+        android:layout_width="389dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:background="#C31306"
+        android:text="Let's Get Started."
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

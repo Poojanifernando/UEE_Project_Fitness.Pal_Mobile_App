@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    tools:context=".ViewSchedule"
+    android:orientation="vertical"
+    >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/tx_view_main_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:gravity="center"
+                android:text="@string/your_sch"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ProgressBar
+                android:id="@+id/progressBar_viewer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/tx_view_no_data"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="@string/no_sch"
+                android:textColor="@color/light_red"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcl_select_sch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:visibility="gone"
+                tools:listitem="@layout/item_schedule" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/app_btn_edit_sch"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/light_red"
+                android:text="@string/edit_sch"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/app_btn_remove_sch"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/light_red"
+                android:text="@string/remove_sch"
+                android:textColor="@color/white"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/app_btn_back"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/light_red"
+                android:text="@string/back_sch"
+                android:textColor="@color/white"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

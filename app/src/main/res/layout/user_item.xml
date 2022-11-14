@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/edittext_bg"
+    android:padding="4sp"
+    android:layout_margin="4sp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="User name"/>
+
+    <TextView
+        android:id="@+id/textPlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:text="Plan Name"/>
+
+    <TextView
+        android:id="@+id/textComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:text="Review"/>
+
+    <LinearLayout
+        android:layout_width="57dp"
+        android:layout_height="20dp"
+        android:layout_margin="4sp"
+        android:orientation="horizontal"
+        android:padding="4sp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonDelete"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_bg"
+            android:text="DELETE"
+            android:textColor="#050F49" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonUpdate"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_bg"
+            android:text="UPDATE"
+            android:textColor="#050F49" />
+
+    </LinearLayout>
+</LinearLayout>

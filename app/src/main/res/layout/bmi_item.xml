@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bmi_item_bg"
+    android:padding="4sp"
+    android:layout_margin="4sp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivityBmi">
+
+    <TextView
+        android:textSize="29dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:text="BMI Record"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="80dp"
+        android:layout_marginTop="-50dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="300dp"
+        app:srcCompat="@drawable/bmitarget" />
+
+
+    <TextView
+        android:textColor="#071330"
+        android:id="@+id/edAge"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:text="Age (Years):"
+        android:layout_height="wrap_content"
+        />
+
+
+    <TextView
+        android:textColor="#071330"
+        android:id="@+id/edKg"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:text="Weight (Kg):"
+        android:layout_height="wrap_content"
+        tools:ignore="DuplicateIds"/>
+
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:text="Height"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#071330"
+        android:layout_height="wrap_content"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="#071330"
+            android:id="@+id/edFeet"
+            android:layout_width="60dp"
+            android:text="Ft:"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            tools:ignore="DuplicateIds"/>
+
+
+
+
+        <TextView
+            android:textColor="#071330"
+            android:layout_width="60dp"
+            android:text="In:"
+            android:textSize="18sp"
+            android:id="@+id/edIns"
+            android:layout_height="wrap_content"
+            tools:ignore="DuplicateIds"/>
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:text="BMI Result :"
+        android:id="@+id/edIndex"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:textColor="#071330"
+        android:layout_height="wrap_content"
+        tools:ignore="DuplicateIds"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="4sp"
+        android:padding="4sp"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonDelete"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:background="@android:color/holo_red_light"
+            android:text="DELETE"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonUpdate"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:background="@android:color/holo_purple"
+            android:text="UPDATE"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

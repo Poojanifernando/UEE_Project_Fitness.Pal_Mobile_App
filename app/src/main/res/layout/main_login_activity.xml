@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#071330"
+    tools:context=".MainLoginActivity">
+
+    <TextView
+        android:id="@+id/fitnesstext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="90"
+        android:inputType="textPersonName"
+        android:text="Welcome to "
+        android:textSize="150px"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/fitnesstext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="90"
+        android:inputType="textPersonName"
+        android:text="Fitness.Pal "
+        android:textSize="150px"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="90"
+        android:inputType="textPersonName"
+        android:text="Login"
+        android:textSize="100px"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/user" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="20"
+        android:inputType="textPersonName"
+        android:text="username"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:inputType="textPassword" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLogin"
+        android:layout_width="389dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:background="#C31306"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSignup"
+        android:layout_width="389dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:background="#C31306"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

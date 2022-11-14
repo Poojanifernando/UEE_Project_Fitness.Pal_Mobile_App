@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/drawable-v24/diet_item_bg.xml" value="0.1345" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/drawable-v24/edittext_bg.xml" value="0.207" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2595" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/drawable-v24/user_item_bg.xml" value="0.118" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2595" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/layout/activity_main_r.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/layout/alert_dialog_add_new_diet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/layout/alert_dialog_add_new_plan_r.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/layout/alert_dialog_add_new_user.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/layout/create.xml" value="0.253125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/layout/createplan.xml" value="0.29683698296836986" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/layout/diet_home.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/layout/diet_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/layout/experts.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/layout/user_item.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/layout/view_dialog_confirm_delete.xml" value="0.6" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CRUD/app/src/main/res/layout/view_dialog_confirm_delete_r.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/drawable-v24/edittext_bg.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/drawable-v24/user_item_bg.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/drawable/article_item_bg.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/drawable/background_cardview.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/drawable/bmi_item_bg.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/drawable/ic_baseline_arrow_drop_down_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/activity_add_schedule.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/activity_main_bmi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/activity_main_excersice.xml" value="0.1890625" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/activity_view_schedule.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/activityarticle_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/alert_dialog_add_new_article.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/alert_dialog_add_new_bmi.xml" value="0.203125" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/alert_dialog_add_new_user.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/article_item.xml" value="0.203125" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/article_item2.xml" value="0.203125" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/bmi_activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/bmi_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/create.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/experts.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/item_schedule.xml" value="0.1890625" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/item_schedule_edit.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/item_view_schedule.xml" value="0.1890625" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/myarticle_items.xml" value="0.203125" />
+        <entry key="..\:/Users/USER/Downloads/CRUD/CRUD/app/src/main/res/layout/view_dialog_confirm_delete.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/drawable-v24/edittext_bg.xml" value="0.172" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/drawable-v24/user_item_bg.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/drawable/userprofile_item_bg.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/activity_add_schedule.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/activity_main_excersice.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/activity_main_userprofile.xml" value="0.2384428223844282" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/activityarticle_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/alert_dialog_add_new_article.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/alert_dialog_add_new_bmi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/alert_dialog_add_new_diet.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/alert_dialog_add_new_user.xml" value="0.16259057971014493" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/alert_dialog_add_new_users.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/alert_dialog_add_new_usersprofile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/article_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/article_item2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/bmi_home_activity_main.xml" value="0.22201946472019465" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/create.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/diet_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/diet_item.xml" value="0.20380434782608695" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/home_app.xml" value="0.2384428223844282" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/item_schedule_edit.xml" value="0.1082427536231884" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/item_view_schedule.xml" value="0.1082427536231884" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/main_login_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/user_item.xml" value="0.18" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/userprofile_item.xml" value="0.203125" />
+        <entry key="..\:/Users/USER/Downloads/CRUD_Uee/CRUD_Uee/app/src/main/res/layout/welcome_activity.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
